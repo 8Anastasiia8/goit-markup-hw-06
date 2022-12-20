@@ -419,11 +419,13 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
           <div class="modal">
+            <div class="close">
             <button data-modal-close type="button" class="modal-btn">
               <svg width="18px" height="18px" class="modal-close">
                  <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
               </svg>
             </button>
+            </div>
             <div class="form">
             <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
             <form class="modal-form modal-form-1" autocomplete="on">
@@ -450,7 +452,8 @@
            </div>
            <div class="form-field-comment">
            <label for="comment">Коментар</label>
-            <textarea name="comment" id="comment" rows="8" placeholder="Введіть текст"></textarea>
+            <textarea name="comment" id="comment"  class="comment-placeholder"
+             placeholder="Введіть текст"></textarea>
            </div>
            <div class="modal-input-group">
            <input type="checkbox" name="politic" id="politic" class="modal-politic-check visually-hidden" />
